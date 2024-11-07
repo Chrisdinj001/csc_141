@@ -1,0 +1,12 @@
+def city_country(city, country):
+    
+    return f"{city.title()}, {country.title()}"
+
+city = city_country('tokyo','japan')
+print(city)
+
+city = city_country('cairo', 'egypt')
+print(city)
+
+city = city_country('lisbon', 'portugal')
+print(city)
